@@ -11,8 +11,7 @@ tenacity = ">=8.2.3"
 exceptiongroup = "*"
 pyopenssl = ">=24.1.0"
 
-
-[project.entry-points."prefect.collections"]
+[tool.poetry.plugins."prefect.collections"]
 prefect_volcano = "prefect_volcano"
 
 [build-system]
